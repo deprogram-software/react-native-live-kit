@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7636FB6E-1C30-486D-9394-E8AEE335387F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : "yyyueba\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "03_Refrence\/yy-plugins\/react-native-livekit\/ios\/LiveKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.42.61.27:50091\/slp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264"
+    }
+  ]
+}

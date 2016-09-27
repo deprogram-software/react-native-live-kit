@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="pldroid_streaming_white">#fff</color>
+    <color name="pldroid_streaming_red">#f00</color>
+    <color name="pldroid_streaming_yellow">#FFFF00</color>
+
+    <color name="c_3">#333333</color>
+    <color name="c_a8_0">#a8000000</color>
+    <color name="c_5c_f">#5cFFFFFF</color>
+    <color name="c_ff">#ff0000</color>
+    <color name="c_00_f">#00FFFFFF</color>
+    <color name="c_00_0">#00000000</color>
+    <color name="c_5c_0">#5c000000</color>
+    <color name="c_f">#FFFFFF</color>
+    <color name="c_0">#000000</color>
+    <color name="c_orange">#ffbf18</color>
+    <color name="c_4c_f">#4cffffff</color>
+
+
+</resources>

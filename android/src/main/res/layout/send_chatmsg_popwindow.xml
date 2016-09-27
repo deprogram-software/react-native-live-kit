@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/id_pop_layout"
+    android:background="@color/c_a8_0"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/d_10"
+        android:paddingRight="@dimen/d_17"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        android:layout_marginBottom="@dimen/d_18"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/c_5c_0"
+            android:layout_toRightOf="@+id/iv_gift"
+            android:layout_toLeftOf="@+id/tv_send_msg"
+            android:layout_centerVertical="true"
+            android:id="@+id/et_msg"
+            android:background="@drawable/input_msg_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_send_msg"
+            android:text="发送"
+            android:textSize="@dimen/f_15"
+            android:textColor="@color/c_orange"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

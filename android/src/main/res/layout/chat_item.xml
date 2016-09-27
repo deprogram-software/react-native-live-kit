@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/bg_gift_area"
+        android:layout_marginBottom="@dimen/d_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.pili.pldroid.playerdemo.view.CircularImage
+            android:id="@+id/iv_user_header"
+            android:layout_centerVertical="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="center"
+            android:src="@drawable/qiniu_logo"/>
+        <LinearLayout
+            android:id="@+id/ll_user_msg"
+            android:layout_toRightOf="@+id/iv_user_header"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user_mame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pldroid_streaming_white"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/f_12"
+                android:text="小小的我"/>
+
+            <TextView
+                android:id="@+id/tv_pkt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/f_15"
+                android:textColor="@color/c_ff"
+                android:paddingLeft="10dp"
+                android:text="小小的我"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_gift_num"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ll_user_msg"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/ic_send_gift_no"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/c_ff"
+            android:textSize="@dimen/f_18"
+            android:text="5"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_chat_list"
+        android:descendantFocusability="blocksDescendants"
+        android:listSelector="@android:color/transparent"
+        android:divider="@color/c_00_f"
+        android:paddingLeft="10dp"
+        android:dividerHeight="@dimen/d_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
