@@ -1,25 +1,27 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7e54d0e0-5dac-7d42-913c-b7ab07022c85++5730",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : {
-
+    "7e54d0e0-5dac-7d42-913c-b7ab07022c85++5730" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : 0
+    "7e54d0e0-5dac-7d42-913c-b7ab07022c85++5730" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7636FB6E-1C30-486D-9394-E8AEE335387F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264" : "yyyueba\/"
+    "7e54d0e0-5dac-7d42-913c-b7ab07022c85++5730" : "YYShow\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveKit",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "03_Refrence\/yy-plugins\/react-native-livekit\/ios\/LiveKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "99_Reference\/react-native-live-kit\/ios\/LiveKit.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.42.61.27:50091\/slp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.4\/svn\/yygj",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2417ed4c-14d4-4c5a-a81e-f7a0f1e2c94d++2264"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7e54d0e0-5dac-7d42-913c-b7ab07022c85++5730"
     }
   ]
 }

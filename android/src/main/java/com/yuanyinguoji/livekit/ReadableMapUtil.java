@@ -1,5 +1,7 @@
 package com.yuanyinguoji.livekit;
 
+import android.util.Log;
+
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;
 import com.facebook.react.bridge.ReadableType;
@@ -35,14 +37,7 @@ public class ReadableMapUtil {
                         jsonObject.put(key, readableMap.getBoolean(key));
                         break;
                     case Number:
-//                        String a = String.valueOf(readableMap.getInt(key));
-//                        if (a.length()>=32) {
-//                            double b = readableMap.getInt(key);
-//                            jsonObject.put(key,readableMap.getDouble(key));
-//                        }else {
-//                            jsonObject.put(key, readableMap.getInt(key));
-//                        }
-                        jsonObject.put(key,readableMap.getDouble(key));
+                        jsonObject.put(key, readableMap.getInt(key));
                         break;
                     case String:
                         jsonObject.put(key, readableMap.getString(key));
